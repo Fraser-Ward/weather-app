@@ -1,0 +1,239 @@
+body {
+  background-color: rgb(135, 206, 250);
+  height: 100vh;
+  margin: 0px;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 20px;
+    position: static;
+    display: block;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+#title-container {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  display: flex;
+}
+
+#sunImg {
+  height: 180px;
+  width: 180px;
+  animation: rotation 20s infinite linear;
+  -webkit-animation: rotation 20s infinite linear;
+  -moz-animation: rotation 20s infinite linear;
+  -o-animation: rotation 20s infinite linear;
+  -ms-animation: rotation 20s infinite linear;
+  display: block;
+}
+
+#searchForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+
+#query {
+  width: 300px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.weathercard1 {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.card-title {
+color: black;
+text-align: center;
+font-size: 70px;
+font-weight: bold;
+font-family: Helvetica, sans-serif;
+}
+
+.card-text {
+    color:black;
+    text-align: center;
+    font-size: 23px; 
+    font-family: Helvetica, sans-serif
+}
+
+.card-body {
+    background-color: white;
+    color: black;
+    padding-top: 0px;
+    margin-bottom: 3px;
+}
+
+.description {
+    color:rgb(155, 155, 155);
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.high {
+    color: black;
+    text-align: center;
+    font-size: 15px; 
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.low{
+    color: black;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 15px; 
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#main {
+height: 100%;
+}
+
+#footer {
+    background-color: rgb(92, 186, 245);
+    position: static; 
+    display: block;
+    bottom: 0px;
+    width: 100%;
+}
+
+#footer-text{
+    color:white;
+}
+
+.card {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+};
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@-moz-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
